@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# silly git committer
 git add -A && git commit -m "$*" && git push \
 && echo git done. \
 || echo git troubled.
