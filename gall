@@ -1,3 +1,5 @@
 #!/bin/bash
 
-git add -A && git commit -m "$*"
+git add -A && git commit -m "$*" && git push \
+&& echo git done. \
+|| echo git troubled.
