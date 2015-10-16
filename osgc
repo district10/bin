@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Compile OpenSceneGraph Programs
+g++ $* -o ${1%.*} $(pkg-config --cflags --libs openscenegraph)

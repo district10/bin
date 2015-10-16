@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Compile OpenCV Programs
+g++ $* -o ${1%.*} $(pkg-config --cflags --libs opencv)

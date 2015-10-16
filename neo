@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/tzx/git/neo_keyboard_layout/neo2015 && \
+./neo.sh
