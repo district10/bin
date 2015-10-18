@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd /root/git/neo_keyboard_layout/neo2015 && ./np.sh
